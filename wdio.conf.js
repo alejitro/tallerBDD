@@ -1,5 +1,5 @@
 exports.config = {
-    
+
     //
     // ==================
     // Specify Test Files
@@ -10,7 +10,7 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './features/**/*.feature'
+        './features/**/register.feature'
     ],
     // Patterns to exclude.
     exclude: [
@@ -138,7 +138,7 @@ exports.config = {
         timeout: 20000,     // <number> timeout for step definitions
         ignoreUndefinedDefinitions: false, // <boolean> Enable this config to treat undefined definitions as warnings.
     },
-    
+
     //
     // =====
     // Hooks
