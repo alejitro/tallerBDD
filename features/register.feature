@@ -44,8 +44,8 @@ Scenario Outline: Register success
     And I check my program
     And I accept terms
     And I try to register
-    Then I expect to see register <message>
+    Then I expect to login
 
     Examples:
       | name            | lastName |email                | password | message|
-      | usuario         | pruebas  | fake2@fake.com      | 12345678 | Registro exitoso|
+      | usuario         | pruebas  | fake42@fake.com     | 12345678 | Registro exitoso|
